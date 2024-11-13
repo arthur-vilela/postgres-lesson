@@ -131,6 +131,8 @@ if programmer is not None:
         print("Programmer not deleted")
 else:
     print("No records found")
+
+
 # query the database to find all Programmers
 programmers = session.query(Programmer)
 for programmer in programmers:
